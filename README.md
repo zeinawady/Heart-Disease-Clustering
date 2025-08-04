@@ -1,16 +1,16 @@
 # Clustering Heart Disease Patients
 
 ## 📑 Table of Contents
-- [📌 Project Overview](#📌-project-overview)
-- [📊 Dataset Overview](#📊-dataset-overview)
-- [🔧 Data Preprocessing](#🔧-data-preprocessing)
-- [🔍 Clustering Techniques](#🔍-clustering-techniques)
-  - [1️⃣ K-Means Clustering](#1️⃣-k-means-clustering)
-  - [2️⃣ DBSCAN (Density-Based Clustering)](#2️⃣-dbscan-density-based-clustering)
-  - [3️⃣ Hierarchical Clustering](#3️⃣-hierarchical-clustering)
-  - [4️⃣ K-Medoids Clustering (PAM)](#4️⃣-k-medoids-clustering-pam)
-- [📈 Feature Impact Analysis](#📈-feature-impact-analysis)
-- [📊 Clustering Method Comparison](#📊-clustering-method-comparison)
+- [Project Overview](#📌-project-overview)
+- [Dataset Overview](#📊-dataset-overview)
+- [Data Preprocessing](#🔧-data-preprocessing)
+- [Clustering Techniques](#🔍-clustering-techniques)
+  - [K-Means Clustering](#1️⃣-k-means-clustering)
+  - [DBSCAN (Density-Based Clustering)](#2️⃣-dbscan-density-based-clustering)
+  - [Hierarchical Clustering](#3️⃣-hierarchical-clustering)
+  - [K-Medoids Clustering (PAM)](#4️⃣-k-medoids-clustering-pam)
+- [Feature Impact Analysis](#📈-feature-impact-analysis)
+- [Clustering Method Comparison](#📊-clustering-method-comparison)
 
 ## 📌 Project Overview
 This project applies **unsupervised machine learning techniques** to cluster heart disease patients based on their medical records. The goal is to identify patient groups with similar health profiles, which could help doctors tailor treatments more effectively.
