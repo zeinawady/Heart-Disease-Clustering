@@ -31,23 +31,41 @@ This project applies **unsupervised machine learning techniques** to cluster hea
 ### 1️⃣ K-Means Clustering
 - **Optimal k:** 3 (determined via Elbow Method)  
 - **Silhouette Score:** 0.241  
-- **Visualization:** Elbow Method plot, K-Means clusters  
+- **Visualization:** Elbow Method plot, K-Means clusters
+<p>
+  <img src="images/K-Means.png" alt="K-Means Clustering" width="60%"/>
+</p>
 
 ### 2️⃣ DBSCAN (Density-Based Clustering)
 - **Parameters:** ε = 0.8, minPts = 5  
 - **Silhouette Score:** 0.029 (excluding noise points)  
-- **Visualization:** DBSCAN cluster visualization  
+- **Visualization:** DBSCAN cluster visualization
+<p>
+  <img src="images/DBSCAN.png" alt="DBSCAN Clustering" width="60%"/>
+</p>
 
 ### 3️⃣ Hierarchical Clustering
 - **Linkage Method:** Ward's Method  
 - **Optimal Clusters:** 3 (determined via dendrogram)  
 - **Silhouette Score:** 0.216  
-- **Visualization:** Dendrogram, Hierarchical clustering visualization  
+- **Visualization:**
+  - Dendrogram Plot
+    <p>
+      <img src="images/Dendrogram.png" alt="Dendrogram Plot" width="60%"/>
+    </p>
+
+  - Hierarchical clustering visualization
+    <p>
+      <img src="images/Hierarchical.png" alt="Hierarchical clustering" width="60%"/>
+    </p>
 
 ### 4️⃣ K-Medoids Clustering (PAM)
 - **Clusters:** 3  
 - **Silhouette Score:** 0.162  
-- **Visualization:** K-Medoids cluster visualization  
+- **Visualization:** K-Medoids cluster visualization
+<p>
+  <img src="images/K-Medoids.png" alt="K-Medoids cluster" width="60%"/>
+</p>
 
 ## 📈 Feature Impact Analysis
 - Tested clustering with reduced features: **Age, Trestbps, Chol, Thalach, HRR**.  
